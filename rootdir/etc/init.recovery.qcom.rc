@@ -7,3 +7,4 @@ on init
 
 on boot
     write /sys/devices/virtual/sec/tsp/after_work 1
+
