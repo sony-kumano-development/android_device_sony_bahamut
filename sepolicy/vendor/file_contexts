@@ -15,7 +15,6 @@
 /mnt/idd/output(/.*)?                     u:object_r:idd_output_file:s0
 /mnt/idd/crashdata(/.*)?                  u:object_r:idd_crashdata_file:s0
 /mnt/idd/startup-prober(/.*)?             u:object_r:startupprober_file:s0
-/data/vendor/3dra(/.*)?                   u:object_r:vendor_audio_data_file:s0
 
 
 # HALs
