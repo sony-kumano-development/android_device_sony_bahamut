@@ -8,8 +8,6 @@ hal_client_domain(hal_secd_default, hal_allocator);
 
 allow hal_secd_default hidl_memory_hwservice:hwservice_manager find;
 
-get_prop(hal_secd_default, vendor_tee_listener_prop);
-
 allow hal_secd_default tee_device:chr_file { ioctl read write getattr lock append map open watch watch_reads };
 allow hal_secd_default ion_device:chr_file { ioctl read getattr lock map open watch watch_reads };
 allow hal_secd_default sdm_prop:property_service { set };
