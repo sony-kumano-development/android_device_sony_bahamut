@@ -36,8 +36,7 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
 # VNDK
-PRODUCT_TARGET_VNDK_VERSION := 30
-PRODUCT_EXTRA_VNDK_VERSIONS := 30
+PRODUCT_SHIPPING_API_LEVEL := 28
 PRODUCT_USE_PRODUCT_VNDK_OVERRIDE := true
 
 # Permissions
@@ -52,6 +51,7 @@ AB_OTA_PARTITIONS += \
     boot \
     dtbo \
     system \
+    vendor \
     vbmeta
 
 AB_OTA_POSTINSTALL_CONFIG += \
@@ -67,6 +67,7 @@ AB_OTA_POSTINSTALL_CONFIG += \
     POSTINSTALL_OPTIONAL_vendor=true
 
 PRODUCT_PACKAGES += \
+    checkpoint_gc \
     otapreopt_script
 
 # ANT+
@@ -131,7 +132,7 @@ PRODUCT_COPY_FILES += \
 
 # Livedisplay
 PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service-sdm
+    vendor.lineage.livedisplay@2.1-service.sony
 
 # QTI Bluetooth
 PRODUCT_PACKAGES += \
