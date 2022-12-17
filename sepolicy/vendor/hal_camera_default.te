@@ -6,8 +6,6 @@ allow hal_camera_default sony_camera_device:chr_file rw_file_perms;
 
 unix_socket_connect(hal_camera_default, tad, tad)
 
-allow hal_camera_default vendor_sysfs_kgsl:file r_file_perms;
-
 allow hal_camera_default somc_camera_prop:property_service set;
 allow hal_camera_default somc_camera_prop:file { read getattr map open };
 
