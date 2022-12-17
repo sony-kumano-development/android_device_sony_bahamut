@@ -94,8 +94,6 @@ vendor/lib/soundfx/libznrwrapper.so
 vendor/lib/libSNPE.so
 vendor/lib/libc++_shared.so
 vendor/lib/libdapparamstorage.so
-vendor/lib/libiVptApi.so
-vendor/lib/libiVptLibC.so
 vendor/lib/libops.so
 vendor/lib/librebuffering.so
 vendor/lib/libsnpe_dsp_domains_v2.so
@@ -111,7 +109,6 @@ vendor/lib64/soundfx/libswdap.so
 vendor/lib64/libdapparamstorage.so
 vendor/lib64/libops.so
 vendor/lib64/librebuffering.so
-vendor/lib64/libsony3daudioeffect.so
 vendor/lib64/vendor.dolby.hardware.dms@1.0.so
 
 
@@ -148,7 +145,6 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Bluetooth (Other libs)
-vendor/lib64/libbluetooth_audio_session_qti_2_1.so
 vendor/lib64/libsoc_helper.so
 
 # Camera firmware
@@ -1047,7 +1043,6 @@ vendor/lib64/libmiscta.so
 vendor/lib64/libsuntory.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 vendor/lib64/vendor.somc.hardware.miscta@1.0.so
-vendor/lib64/vendor.somc.hardware.security.secd@1.1.so
 
 # SECD firmware
 vendor/etc/firmware/tzsuntory.b00
@@ -2169,7 +2164,6 @@ vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/libswregistrationalgo.so
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/hw/camera.qcom.so
-vendor/lib64/libSNPE.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcammw_util.so
 vendor/lib64/libcamxfdengine.so
